@@ -1,0 +1,16 @@
+# Ignore environment variables
+.env
+.env.*  # Also ignore .env.dev, .env.production, etc.
+
+# Ignore Python cache and virtual environments (if using Python)
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+.venv/
+.envrc
+
+# Ignore Streamlit cache (if using Streamlit)
+.streamlit/
+.cache/
